@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Volleball">
+      <UniqueIdentifier>{ada49926-5cda-4d6c-9618-65fa98f3688d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tennis">
+      <UniqueIdentifier>{69fe7a82-22a5-4873-b2ee-b175b28e8e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basketball">
+      <UniqueIdentifier>{0daa2d17-d871-4020-b9b4-ea19fad87f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Volleyball">
+      <UniqueIdentifier>{4972f43f-13b1-4e72-bffc-56e3e8af7682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tennis">
+      <UniqueIdentifier>{8064cd95-1ba9-4752-835c-d56577bb74ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Basketball">
+      <UniqueIdentifier>{9a91e112-3e05-4fa7-9b06-c4d684cb4d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Volleball">
+      <UniqueIdentifier>{9f1ac621-09bc-4fad-a3ca-fdcbeb0d1487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tennis">
+      <UniqueIdentifier>{72c7c049-e56c-46d1-a685-6122821123e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Basketball">
+      <UniqueIdentifier>{21e7e479-9d68-4eac-8638-15700d4ba364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Volleyball_Team.h">
+      <Filter>Header Files\Volleyball</Filter>
+    </ClInclude>
+    <ClInclude Include="Volleyball_Players.h">
+      <Filter>Header Files\Volleyball</Filter>
+    </ClInclude>
+    <ClInclude Include="Tennis_Team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tennis_Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BBall_Team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BBall_Players.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Volleyball_Players.cpp">
+      <Filter>Source Files\Volleball</Filter>
+    </ClCompile>
+    <ClCompile Include="Volleyball_Team.cpp">
+      <Filter>Source Files\Volleball</Filter>
+    </ClCompile>
+    <ClCompile Include="Volleyball.cpp">
+      <Filter>Source Files\Volleball</Filter>
+    </ClCompile>
+    <ClCompile Include="Tennis_Team.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tennis_Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tennis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BBall_Team.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BBall_Players.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Basketball_Project_Work.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tennis\Tennis 1.csv" />
+    <None Include="Tennis\Tennis 2.csv" />
+    <None Include="Tennis\Tennis 3.csv" />
+    <None Include="Tennis\Tennis 4.csv" />
+    <None Include="Tennis\Tennis 5.csv" />
+    <None Include="Tennis\Tennis 6.csv" />
+    <None Include="Tennis\Tennis 7.csv" />
+    <None Include="Tennis\Tennis 8.csv" />
+    <None Include="Volleyball\Sting.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\Spike.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\RVA.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\MVP.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\MVC.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\EPIC.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\Capitol.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Volleyball\Adversity.csv">
+      <Filter>Resource Files\Volleball</Filter>
+    </None>
+    <None Include="Tennis_rosters\West.csv" />
+    <None Include="Tennis_rosters\South.csv" />
+    <None Include="Tennis_rosters\North.csv" />
+    <None Include="Tennis_rosters\Muskego.csv" />
+    <None Include="Tennis_rosters\MUK.csv" />
+    <None Include="Tennis_rosters\KM.csv" />
+    <None Include="Tennis_rosters\CMH.csv" />
+    <None Include="Tennis_rosters\Arrowhead.csv" />
+    <None Include="Basketball\STARR.csv" />
+    <None Include="Basketball\RVC.csv" />
+    <None Include="Basketball\RC.csv" />
+    <None Include="Basketball\KCDS.csv" />
+    <None Include="Basketball\IQRA.csv" />
+    <None Include="Basketball\CL.csv" />
+    <None Include="Basketball\BIL.csv" />
+    <None Include="Basketball\BHS.csv" />
+  </ItemGroup>
+</Project>
